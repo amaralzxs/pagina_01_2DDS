@@ -15,14 +15,14 @@ width: 100%;
 padding: 20px;
 
 }
-.cabeçlho-itens{
+.cabeçalho-itens{
     max-width: 1980px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.cabeçlho-itens{
+.cabeçalho-itens{
     width:  10%;
     display: flex;
     justify-content: flex-start;
