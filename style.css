@@ -52,7 +52,7 @@ padding: 20px;
    .estudante-nome{
       text-align: center;
    }
-   .estudante-imagem{
+   .estudamnte-imagem{
     width: 120px;
    }
 
@@ -71,4 +71,31 @@ padding: 20px;
       text-align: center;
       padding: 24px;
    }
-    .estudante_todos
+    .estudante_todos{
+        display: flex;
+        justify-content: space-around;
+    }
+
+  .escola{
+      background-image: linear-gradient(#40a2e3,#7fc2ef);
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 24px 0;
+      text-align: center;
+      display: block;
+  }
+.escola-titulo{
+    padding: 50px;
+    text-align: center;
+}
+
+.logo_rodape{
+    height: 80px;
+    padding: 12px 0;
+}
+
+.link{
+    color: #ffffff;
+    text-decoration: none;
+}
