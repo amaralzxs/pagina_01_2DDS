@@ -16,7 +16,6 @@
 
 }
 
-}
 .cabecalho-itens{
     max-width: 1980px;
     margin: 0 auto;
@@ -103,3 +102,24 @@
             color: #ffffff;
             text-decoration: none;
         }
+
+        /* rodape */
+
+.logo_rodape{
+    height: 50px;
+    padding: 12px 0;
+    display: flex;
+justify-content: space-between;
+}
+img {
+    position: absolute; 
+    top: 1500px; /* ajuste conforme necessário */
+    left: 100px; /* ajuste conforme necessário */
+  }
+  
+
+.link {
+    color: #f7f9fc;
+    background-color: #092640; 
+    text-decoration: none;
+}
