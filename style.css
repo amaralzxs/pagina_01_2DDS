@@ -105,6 +105,11 @@
 
         /* rodape */
 
+.link {
+    color: #f7f9fc;
+    background-color: #092640; 
+    text-decoration: none;
+}
 .logo_rodape{
     height: 50px;
     padding: 12px 0;
@@ -117,9 +122,3 @@ img {
     left: 100px; /* ajuste conforme necessário */
   }
   
-
-.link {
-    color: #f7f9fc;
-    background-color: #092640; 
-    text-decoration: none;
-}
