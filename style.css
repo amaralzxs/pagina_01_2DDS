@@ -116,7 +116,7 @@
     display: flex;
 justify-content: space-between;
 }
-img {
+.endereco_rodape {
     position: absolute; 
     top: 1500px; /* ajuste conforme necessário */
     left: 100px; /* ajuste conforme necessário */
