@@ -10,7 +10,7 @@
     
     header{
     background-color: #934097;
-    color: #ffffff;
+    color: #092640;
     width: 100%;
     padding: 50px;
 
@@ -64,7 +64,7 @@
     }
 
     .estudante{
-        background-image: background-color(#FFF6E9);
+        background-image: background-color(#092640);
         padding: 24px 0;
         }
         
@@ -99,7 +99,7 @@
            
         }
         .link{
-            color: #ffffff;
+            color: #092640;
             text-decoration: none;
         }
 
