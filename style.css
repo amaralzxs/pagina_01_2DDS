@@ -105,7 +105,7 @@
 
         /* rodape */
 
-.link {
+.link{
     color: #f7f9fc;
     background-color: #092640; 
     text-decoration: none;
@@ -116,9 +116,16 @@
     display: flex;
 justify-content: space-between;
 }
-.endereco_rodape {
-    position: absolute; 
-    top: 1500px; /* ajuste conforme necessário */
-    left: 100px; /* ajuste conforme necessário */
+
+
+.endereco_rodape{
+    img {
+        position: absolute; /* Define o posicionamento absoluto da imagem */
+        top: 150px; /* Define a distância do topo da janela do navegador */
+        left: 100px; /* Define a distância da esquerda da janela do navegador */
+        width: 20px; /* Define a largura da imagem em pixels */
+        height: auto; /* Ajusta a altura automaticamente para manter a proporção da imagem */
+    }
+    
   }
   
