@@ -119,13 +119,43 @@ justify-content: space-between;
 
 
 .endereco_rodape{
-    img {
+    
         position: absolute; /* Define o posicionamento absoluto da imagem */
         top: 150px; /* Define a distância do topo da janela do navegador */
         left: 100px; /* Define a distância da esquerda da janela do navegador */
         width: 20px; /* Define a largura da imagem em pixels */
         height: auto; /* Ajusta a altura automaticamente para manter a proporção da imagem */
-    }
-    
+        
   }
   
+  .whats_rodape{
+    position: absolute; 
+    top: 150px; 
+    left: 150px; 
+    width: 20px; 
+    height: auto; 
+}
+
+.email_rodape{
+    position: absolute; 
+    top: 150px; 
+    left: 200px; 
+    width: 20px; 
+    height: auto;
+}
+
+.face_rodape{
+    position: absolute; 
+    top: 150px; 
+    left: 250px; 
+    width: 20px; 
+    height: auto;
+}
+
+.insta_rodape{
+    position: absolute; 
+    top: 150px; 
+    left: 250px; 
+    width: 20px; 
+    height: auto;
+}
