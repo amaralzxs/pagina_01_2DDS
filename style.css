@@ -105,58 +105,52 @@
 
         /* rodape */
 
-.link{
-    color: #f7f9fc;
-    background-color: #092640; 
-    text-decoration: none;
-}
-.logo_rodape{
-    height: 50px;
-    padding: 12px 0;
-    display: flex;
-justify-content: space-between;
-}
-
-
-.endereco_rodape{
-    
-        position: absolute; /* Define o posicionamento absoluto da imagem */
-        top: 150px; /* Define a distância do topo da janela do navegador */
-        left: 100px; /* Define a distância da esquerda da janela do navegador */
-        width: 20px; /* Define a largura da imagem em pixels */
-        height: auto; /* Ajusta a altura automaticamente para manter a proporção da imagem */
-        
-  }
-  
-  .whats_rodape{
-    position: absolute; 
-    top: 150px; 
-    left: 150px; 
-    width: 20px; 
-    height: auto; 
-}
-
-.email_rodape{
-    position: absolute; 
-    top: 150px; 
-    left: 200px; 
-    width: 20px; 
-    height: auto;
-}
-
-.face_rodape{
-    position: absolute; 
-    top: 150px; 
-    left: 250px; 
-    width: 20px; 
-    height: auto;
-}
-
-.insta_rodape{
-    position: absolute; 
-    top: 150px; 
-    left: 250px; 
-    width: 20px; 
-    height: auto;
-}
-
+        .rodape{
+            background-color: #f36e20;
+            color: white;
+            height: auto;
+            width: 100%;
+            font-size: 14px;
+            font-family: helvetica;
+        }
+        .rodape a{
+            text-decoration: none;
+            color: white;
+        }
+        .rodape p{
+            margin-bottom: 5px;
+        }
+        .rodape-div{
+            display: flex;
+            flex-wrap: wrap;
+            width:100%;
+            margin: auto;
+            align-items: stretch;
+            padding: 60px 10px 40px 10px;
+        }
+        .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+            display: flex;
+            width: calc(100% / 4 - 20px);
+            padding: 10px;
+        }
+        .rodape span{
+            font-size: 20px;
+            color: white;
+        }
+        .rodape-direitos{
+            width: calc(100% - 20px);
+            background-color: black;
+            padding: 10px;
+            margin: 0px;
+            text-align: center;
+        }
+        /*mobile*/
+        @media (max-width: 768px) {
+            .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+                width: calc(50% - 20px);
+                padding: 10px;
+            }
+            .rodape-div{
+                padding: 60px 0px 40px 0px;
+            }
+        }
